@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+numpy
+firebase-admin
+apscheduler
+pydantic
