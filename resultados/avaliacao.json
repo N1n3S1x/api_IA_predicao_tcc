@@ -1,0 +1,137 @@
+{
+ "teto_bayes": 0.8840677083333351,
+ "linhas": [
+  {
+   "modelo": "Chutar 'ninguém evade'",
+   "observacao": "referência mínima",
+   "execucoes": 1,
+   "acuracia": 0.5846666666666667,
+   "precisao": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "auc": null,
+   "desvio": null,
+   "acuracias": [
+    0.5846666666666667
+   ]
+  },
+  {
+   "modelo": "Regressão logística",
+   "observacao": "",
+   "execucoes": 1,
+   "acuracia": 0.88,
+   "precisao": 0.8697829716193656,
+   "recall": 0.8362760834670947,
+   "f1": 0.8527004909983633,
+   "auc": 0.9613879579992349,
+   "desvio": null,
+   "acuracias": [
+    0.88
+   ]
+  },
+  {
+   "modelo": "Árvore de decisão (prof. 3)",
+   "observacao": "",
+   "execucoes": 1,
+   "acuracia": 0.8853333333333333,
+   "precisao": 0.9555555555555556,
+   "recall": 0.7592295345104334,
+   "f1": 0.8461538461538461,
+   "auc": 0.9519236928753538,
+   "desvio": null,
+   "acuracias": [
+    0.8853333333333333
+   ]
+  },
+  {
+   "modelo": "Random Forest",
+   "observacao": "",
+   "execucoes": 1,
+   "acuracia": 0.8753333333333333,
+   "precisao": 0.8797909407665505,
+   "recall": 0.8105939004815409,
+   "f1": 0.8437761069340016,
+   "auc": 0.9599457145419503,
+   "desvio": null,
+   "acuracias": [
+    0.8753333333333333
+   ]
+  },
+  {
+   "modelo": "Regra fixa: freq < 70% ou nota < 4,5",
+   "observacao": "sem aprendizado",
+   "execucoes": 1,
+   "acuracia": 0.872,
+   "precisao": 0.8118668596237337,
+   "recall": 0.9004815409309791,
+   "f1": 0.8538812785388128,
+   "auc": null,
+   "desvio": null,
+   "acuracias": [
+    0.872
+   ]
+  },
+  {
+   "modelo": "Fuzzy ARTMAP — versão anterior",
+   "observacao": "implementação original; 9 ordens",
+   "execucoes": 9,
+   "acuracia": 0.7941481481481483,
+   "precisao": 0.7631152320823522,
+   "recall": 0.7269484572855359,
+   "f1": 0.7416227029375139,
+   "auc": null,
+   "desvio": 0.04973885162293331,
+   "acuracias": [
+    0.856,
+    0.8333333333333334,
+    0.7346666666666667,
+    0.722,
+    0.7986666666666666,
+    0.846,
+    0.744,
+    0.77,
+    0.8426666666666667
+   ]
+  },
+  {
+   "modelo": "Fuzzy ARTMAP — corrigido (1 rede)",
+   "observacao": "9 ordens de treino",
+   "execucoes": 9,
+   "acuracia": 0.8535555555555557,
+   "precisao": 0.8169961416406839,
+   "recall": 0.8344925985375423,
+   "f1": 0.8255505443591769,
+   "auc": null,
+   "desvio": 0.009253627917180877,
+   "acuracias": [
+    0.864,
+    0.8453333333333334,
+    0.862,
+    0.8373333333333334,
+    0.8573333333333333,
+    0.8513333333333334,
+    0.8666666666666667,
+    0.8453333333333334,
+    0.8526666666666667
+   ]
+  },
+  {
+   "modelo": "Comitê de 7 redes (produção)",
+   "observacao": "5 sementes; score = fração de votos",
+   "execucoes": 5,
+   "acuracia": 0.8671999999999999,
+   "precisao": 0.8527586861048077,
+   "recall": 0.8224719101123596,
+   "f1": 0.8372770813337475,
+   "auc": 0.9405788374566001,
+   "desvio": 0.005406169315390208,
+   "acuracias": [
+    0.8773333333333333,
+    0.8633333333333333,
+    0.8673333333333333,
+    0.866,
+    0.862
+   ]
+  }
+ ]
+}

@@ -1,3 +1,6 @@
+# Vale também para o repositório da API no Render (api_IA_predicao_tcc), que recebe uma cópia desta pasta.
+# A chave da conta de serviço NUNCA vai para o git: no Render ela fica na variável FIREBASE_CREDENTIALS_JSON.
 chave_firebase.json
-_pycache__/
+__pycache__/
 *.pyc
+dados/publicos/

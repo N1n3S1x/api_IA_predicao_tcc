@@ -1,0 +1,6 @@
+# Treino, avaliação, figuras e testes (não são necessários no Render).
+-r requirements.txt
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+httpx==0.28.1
